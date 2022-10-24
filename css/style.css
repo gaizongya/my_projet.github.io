@@ -1,0 +1,126 @@
+
+@import url("https://fonts.googlefonts.cn/css?family=Lora|Roboto");
+
+@import url("css/com/banner.css");
+
+@import url("css/com/card.css");
+
+@import url("css/com/container.css");
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+
+}
+
+h2,h3{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: black;
+}
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: white;
+}
+h4{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: gray;
+	font-size: 15px;
+
+}
+
+.container{
+	width: 700px;
+	margin: 0auto;
+}
+
+.container{
+	width: 700px;
+	margin: 0 auto;
+}
+
+@media (max-width: 960px){
+	.container{
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px){
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px){
+	.container{
+		width: 300px;
+	}
+}
+.avatar{
+	width: 400px;
+	border-radius: 50%;
+}
+
+.but-blue{
+	background-color:#B0E0E6;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color:white ;
+	font-weight:bold;
+	font-family: 'Roboto', sans-serif;
+}
+.btn-blue:hover{
+	background-color: black;
+	color: gray;
+}
+
+.banner{
+	background-image: url(4.jfif);
+	background-color: gray;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner h1 {
+	font-size: 50px;
+}
+
+.banner h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-bottom: 40px;
+
+}
+
+.card{
+	padding: 20px;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px;
+	border-radius: 6px;
+	margin: 30px 0px;
+	flex-basis: 250px;
+	flex-grow: 1;
+}
+
+.card img {
+	width: 150px;
+	border-radius: 6px;
+}
+
+.card h3{
+	flex-grow: 1;
+	padding-left: 20px;
+	font-size: 24px;
+}
